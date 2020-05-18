@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment=":tada: FIRST COMMIT: added base of the application" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1c5q3uYxlEujyxDftw2PIpAhp96" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment="" />
+      <created>1589828605537</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589828605537</updated>
+      <workItem from="1589828607127" duration="1980000" />
+      <workItem from="1589830590548" duration="117000" />
+      <workItem from="1589830758423" duration="84000" />
+    </task>
+    <task id="LOCAL-00001" summary=":tada: FIRST COMMIT: added base of the application">
+      <created>1589830122110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589830122110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value=":tada: FIRST COMMIT: added base of the application" />
+    <option name="LAST_COMMIT_MESSAGE" value=":tada: FIRST COMMIT: added base of the application" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2" timestamp="1589830698329">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1589830698329" />
+    <state x="743" y="282" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589830587472">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="743" y="282" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1048@0.0.1920.1048" timestamp="1589830587472" />
+    <state x="449" y="159" width="1022" height="737" key="SettingsEditor" timestamp="1589830809890">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="449" y="159" width="1022" height="737" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1589830809890" />
+    <state x="803" y="433" width="303" height="196" key="VCS.ChangelistChooser" timestamp="1589830154747">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="803" y="433" width="303" height="196" key="VCS.ChangelistChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1589830154747" />
+    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1589830175336">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1589830175336" />
+    <state x="623" y="231" key="search.everywhere.popup" timestamp="1589830909141">
+      <screen x="0" y="0" width="1920" height="1048" />
+    </state>
+    <state x="623" y="231" key="search.everywhere.popup/0.0.1920.1048@0.0.1920.1048" timestamp="1589830909141" />
+  </component>
+</project>
