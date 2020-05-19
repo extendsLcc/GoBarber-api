@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment="" />
+    <list default="true" id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment=":pencil2: ERRATA: Fixed wrong project name.">
+      <change beforePath="$PROJECT_DIR$/../GoBarber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoBarber/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,7 @@
       <workItem from="1589828607127" duration="1980000" />
       <workItem from="1589830590548" duration="117000" />
       <workItem from="1589830758423" duration="84000" />
-      <workItem from="1589830854688" duration="1528000" />
+      <workItem from="1589830854688" duration="1658000" />
     </task>
     <task id="LOCAL-00001" summary=":tada: FIRST COMMIT: added base of the application">
       <created>1589830122110</created>
@@ -81,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589832204583</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=":pencil2: ERRATA: Fixed wrong project name.">
+      <created>1589832472146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589832472146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,7 +115,8 @@
     </ignored-roots>
     <MESSAGE value=":tada: FIRST COMMIT: added base of the application" />
     <MESSAGE value=":heavy_plus_sign: ADD DEPENDENCY: added nodemoon and sucrase as dev dependencies, also added webstorm debug configuration" />
-    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: ADD DEPENDENCY: added nodemoon and sucrase as dev dependencies, also added webstorm debug configuration" />
+    <MESSAGE value=":pencil2: ERRATA: Fixed wrong project name." />
+    <option name="LAST_COMMIT_MESSAGE" value=":pencil2: ERRATA: Fixed wrong project name." />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="185" width="800" height="684" key="#Inspections" timestamp="1589832301757">
@@ -117,10 +127,10 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="418" y="182" width="1084" height="581" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1589832127688" />
-    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2" timestamp="1589832204444">
+    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2" timestamp="1589832489659">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1589832204444" />
+    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1589832489659" />
     <state x="743" y="282" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589830587472">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>

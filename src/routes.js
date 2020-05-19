@@ -8,4 +8,3 @@ routes.get( '/', ( req, res ) => {
 } );
 
 export default routes;
-
