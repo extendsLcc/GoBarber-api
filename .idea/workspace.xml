@@ -2,154 +2,214 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment=":pencil2: ERRATA: Fixed wrong project name.">
-      <change beforePath="$PROJECT_DIR$/../GoBarber/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GoBarber/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/schemas/Notifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="EditorConfigPreviewManager">
+    <editorConfig file="$USER_HOME$/.editorconfig" previewFile="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" />
+    <editorConfig file="$PROJECT_DIR$/.editorconfig" previewFile="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="$PROJECT_DIR$/.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="ProjectId" id="1c5q3uYxlEujyxDftw2PIpAhp96" />
+  <component name="ProjectId" id="1c5y08fgr7SPlhxMfEk8qwNaELa" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3333" restartOnDisconnect="true">
-      <method v="2" />
-    </configuration>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment="" />
-      <created>1589828605537</created>
+      <changelist id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment=":pencil2: ERRATA: Fixed wrong project name." />
+      <created>1589832523598</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1589828605537</updated>
-      <workItem from="1589828607127" duration="1980000" />
-      <workItem from="1589830590548" duration="117000" />
-      <workItem from="1589830758423" duration="84000" />
-      <workItem from="1589830854688" duration="1658000" />
+      <updated>1589832523598</updated>
+      <workItem from="1589832526867" duration="4227000" />
+      <workItem from="1589888920639" duration="25184000" />
+      <workItem from="1589975093648" duration="6382000" />
+      <workItem from="1589982059601" duration="414000" />
+      <workItem from="1589982486887" duration="136000" />
+      <workItem from="1589982675918" duration="42000" />
+      <workItem from="1589982942841" duration="698000" />
+      <workItem from="1589983667786" duration="16000" />
+      <workItem from="1589983696566" duration="59000" />
+      <workItem from="1589983761740" duration="129000" />
+      <workItem from="1589983894449" duration="155000" />
+      <workItem from="1589984064295" duration="207000" />
     </task>
-    <task id="LOCAL-00001" summary=":tada: FIRST COMMIT: added base of the application">
-      <created>1589830122110</created>
+    <task id="LOCAL-00001" summary=":heavy_plus_sign: ADD DEPENDENCY: setting up postgres and sequelize">
+      <created>1589891118734</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1589830122110</updated>
+      <updated>1589891118734</updated>
     </task>
-    <task id="LOCAL-00002" summary=":tada: FIRST COMMIT: added base of the application">
-      <created>1589830962680</created>
+    <task id="LOCAL-00002" summary=":star: FEAT: added create user and session with authentication">
+      <created>1589898178671</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1589830962680</updated>
+      <updated>1589898178671</updated>
     </task>
-    <task id="LOCAL-00003" summary=":heavy_plus_sign: ADD DEPENDENCY: added nodemoon and sucrase as dev dependencies, also added webstorm debug configuration">
-      <created>1589832204583</created>
+    <task id="LOCAL-00003" summary=":star: FEAT: added authentication middleware">
+      <created>1589899584144</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1589832204583</updated>
+      <updated>1589899584144</updated>
     </task>
-    <task id="LOCAL-00004" summary=":pencil2: ERRATA: Fixed wrong project name.">
-      <created>1589832472146</created>
+    <task id="LOCAL-00004" summary=":star: FEAT: added user data and password change.">
+      <created>1589910014479</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1589832472146</updated>
+      <updated>1589910014479</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary=":star: FEAT: added data validation for users and session controllers.">
+      <created>1589912933862</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589912933862</updated>
+    </task>
+    <task id="LOCAL-00006" summary=":heavy_plus_sign: ADD DEPENDENCY: added base config for file upload with multer">
+      <created>1589914258837</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589914258837</updated>
+    </task>
+    <task id="LOCAL-00007" summary=":star: FEAT: added association between avatar file and user.">
+      <created>1589916682010</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589916682010</updated>
+    </task>
+    <task id="LOCAL-00008" summary=":star: FEAT: added route List providers">
+      <created>1589917801561</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589917801561</updated>
+    </task>
+    <task id="LOCAL-00009" summary=":star: FEAT: added migration and model for Appointments">
+      <created>1589918735957</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589918735957</updated>
+    </task>
+    <task id="LOCAL-00010" summary=":star: FEAT: added route for creating and listing Appointments">
+      <created>1589922242709</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589922242709</updated>
+    </task>
+    <task id="LOCAL-00011" summary=":star: FEAT: added pagination for Appointments">
+      <created>1589975581093</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589975581093</updated>
+    </task>
+    <task id="LOCAL-00012" summary=":star: FEAT: added provider schedule listing">
+      <created>1589978472016</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589978472016</updated>
+    </task>
+    <task id="LOCAL-00013" summary=":heavy_plus_sign: ADD DEPENDENCY: add MongoDB  connection and mongoose dependency">
+      <created>1589979813853</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589979813853</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
-    <MESSAGE value=":tada: FIRST COMMIT: added base of the application" />
-    <MESSAGE value=":heavy_plus_sign: ADD DEPENDENCY: added nodemoon and sucrase as dev dependencies, also added webstorm debug configuration" />
-    <MESSAGE value=":pencil2: ERRATA: Fixed wrong project name." />
-    <option name="LAST_COMMIT_MESSAGE" value=":pencil2: ERRATA: Fixed wrong project name." />
+    <MESSAGE value=":heavy_plus_sign: ADD DEPENDENCY: setting up postgres and sequelize" />
+    <MESSAGE value=":star: FEAT: added create user and session with authentication" />
+    <MESSAGE value=":star: FEAT: added authentication middleware" />
+    <MESSAGE value=":star: FEAT: added user data and password change." />
+    <MESSAGE value=":star: FEAT: added data validation for users and session controllers." />
+    <MESSAGE value=":heavy_plus_sign: ADD DEPENDENCY: added base config for file upload with multer" />
+    <MESSAGE value=":star: FEAT: added association between avatar file and user." />
+    <MESSAGE value=":star: FEAT: added route List providers" />
+    <MESSAGE value=":star: FEAT: added migration and model for Appointments" />
+    <MESSAGE value=":star: FEAT: added route for creating and listing Appointments" />
+    <MESSAGE value=":star: FEAT: added pagination for Appointments" />
+    <MESSAGE value=":star: FEAT: added provider schedule listing" />
+    <MESSAGE value=":heavy_plus_sign: ADD DEPENDENCY: add MongoDB  connection and mongoose dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value=":heavy_plus_sign: ADD DEPENDENCY: add MongoDB  connection and mongoose dependency" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="555" y="185" width="800" height="684" key="#Inspections" timestamp="1589832301757">
+    <state x="649" y="316" width="611" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589889114057">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="185" width="800" height="684" key="#Inspections/0.0.1920.1048@0.0.1920.1048" timestamp="1589832301757" />
-    <state x="418" y="182" width="1084" height="581" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589832127688">
+    <state x="649" y="316" width="611" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1589889114057" />
+    <state x="523" y="30" width="864" height="994" key="CommitChangelistDialog2" timestamp="1589979813741">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="418" y="182" width="1084" height="581" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1589832127688" />
-    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2" timestamp="1589832489659">
+    <state x="523" y="30" width="864" height="994" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1589979813741" />
+    <state x="743" y="271" width="424" height="520" key="FileChooserDialogImpl" timestamp="1589982620193">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="462" y="2" width="986" height="1046" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1589832489659" />
-    <state x="743" y="282" width="424" height="491" key="FileChooserDialogImpl" timestamp="1589830587472">
+    <state x="743" y="271" width="424" height="520" key="FileChooserDialogImpl/0.0.1920.1048@0.0.1920.1048" timestamp="1589982620193" />
+    <state x="449" y="159" width="1022" height="737" key="SettingsEditor" timestamp="1589977151055">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="743" y="282" width="424" height="491" key="FileChooserDialogImpl/0.0.1920.1048@0.0.1920.1048" timestamp="1589830587472" />
-    <state x="449" y="159" width="1022" height="737" key="SettingsEditor" timestamp="1589832382831">
+    <state x="449" y="159" width="1022" height="737" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1589977151055" />
+    <state x="793" y="395" width="324" height="264" key="VCS.EditChangelistDialog" timestamp="1589899549743">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="449" y="159" width="1022" height="737" key="SettingsEditor/0.0.1920.1048@0.0.1920.1048" timestamp="1589832382831" />
-    <state x="803" y="433" width="303" height="196" key="VCS.ChangelistChooser" timestamp="1589830154747">
+    <state x="793" y="395" width="324" height="264" key="VCS.EditChangelistDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1589899549742" />
+    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1589978475570">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="803" y="433" width="303" height="196" key="VCS.ChangelistChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1589830154747" />
-    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1589832214522">
+    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1589978475570" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1589982538489">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1589832214522" />
-    <state x="623" y="231" key="search.everywhere.popup" timestamp="1589830909141">
-      <screen x="0" y="0" width="1920" height="1048" />
-    </state>
-    <state x="623" y="231" key="search.everywhere.popup/0.0.1920.1048@0.0.1920.1048" timestamp="1589830909141" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1048@0.0.1920.1048" timestamp="1589982538489" />
   </component>
 </project>
