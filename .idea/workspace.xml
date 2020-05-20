@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment=":star: FEAT: added">
-      <change afterPath="$PROJECT_DIR$/src/app/controllers/NotificationController.js" afterDir="false" />
+    <list default="true" id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config/mail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Mail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/schemas/Notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/schemas/Notification.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
       <workItem from="1589984403228" duration="393000" />
       <workItem from="1589984806794" duration="260000" />
       <workItem from="1589985076813" duration="1599000" />
-      <workItem from="1589994345356" duration="4026000" />
+      <workItem from="1589994345356" duration="5805000" />
     </task>
     <task id="LOCAL-00001" summary=":heavy_plus_sign: ADD DEPENDENCY: setting up postgres and sequelize">
       <created>1589891118734</created>
@@ -179,7 +179,28 @@
       <option name="project" value="LOCAL" />
       <updated>1589999588377</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary=":bettle: FIX: fix timestamps attributes to Notification model">
+      <created>1589999644455</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589999644455</updated>
+    </task>
+    <task id="LOCAL-00017" summary=":star: FEAT: added Notification listing and update for notification reading">
+      <created>1589999693424</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589999693424</updated>
+    </task>
+    <task id="LOCAL-00018" summary=":star: FEAT: added Appointment cancellation route">
+      <created>1590000545420</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590000545420</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,17 +222,20 @@
     <MESSAGE value=":heavy_plus_sign: ADD DEPENDENCY: add MongoDB  connection and mongoose dependency" />
     <MESSAGE value=":wrench::beetle: FIX CONFIG: fix wrong config in IDE project files" />
     <MESSAGE value=":beetle: FIX: fixed possibility of user create appointment with itself as provider." />
-    <option name="LAST_COMMIT_MESSAGE" value=":beetle: FIX: fixed possibility of user create appointment with itself as provider." />
+    <MESSAGE value=":bettle: FIX: fix timestamps attributes to Notification model" />
+    <MESSAGE value=":star: FEAT: added Notification listing and update for notification reading" />
+    <MESSAGE value=":star: FEAT: added Appointment cancellation route" />
+    <option name="LAST_COMMIT_MESSAGE" value=":star: FEAT: added Appointment cancellation route" />
   </component>
   <component name="WindowStateProjectService">
     <state x="649" y="316" width="611" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589889114057">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="649" y="316" width="611" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1589889114057" />
-    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2" timestamp="1589999587960">
+    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2" timestamp="1590000545315">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1589999587960" />
+    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1590000545315" />
     <state x="743" y="271" width="424" height="520" key="FileChooserDialogImpl" timestamp="1589982620193">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -224,10 +248,10 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="793" y="395" width="324" height="264" key="VCS.EditChangelistDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1589899549742" />
-    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1589994459717">
+    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1590000550090">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1589994459717" />
+    <state x="555" y="256" width="800" height="543" key="Vcs.Push.Dialog.v2/0.0.1920.1048@0.0.1920.1048" timestamp="1590000550090" />
     <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1589995618472">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
