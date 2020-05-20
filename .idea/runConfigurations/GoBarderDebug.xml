@@ -1,5 +1,16 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="GoBarderDebug" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="3333" restartOnDisconnect="true">
-    <method v="2" />
+    <method v="2">
+      <option name="NpmBeforeRunTask" enabled="true">
+        <package-json value="$PROJECT_DIR$/package.json" />
+        <command value="run" />
+        <scripts>
+          <script value="dev:debug" />
+        </scripts>
+        <node-interpreter value="project" />
+        <package-manager value="yarn" />
+        <envs />
+      </option>
+    </method>
   </configuration>
 </component>
