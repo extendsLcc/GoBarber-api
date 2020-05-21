@@ -3,14 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4bca1a01-b781-4774-b9a7-93db21d7a9db" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/sentry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/controllers/AppointmentController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/models/Appointment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/Appointment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Queue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/models/File.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/models/File.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/mail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/mail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/redis.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/redis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/sentry.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/sentry.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/queue.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,9 @@
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app" />
       <recent name="$PROJECT_DIR$/src" />
@@ -78,7 +84,7 @@
       <workItem from="1589984403228" duration="393000" />
       <workItem from="1589984806794" duration="260000" />
       <workItem from="1589985076813" duration="1599000" />
-      <workItem from="1589994345356" duration="19175000" />
+      <workItem from="1589994345356" duration="20477000" />
     </task>
     <task id="LOCAL-00001" summary=":heavy_plus_sign: ADD DEPENDENCY: setting up postgres and sequelize">
       <created>1589891118734</created>
@@ -248,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590011360280</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary=":star: FEAT: added error handler tracker with sentry">
+      <created>1590023204201</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1590023204201</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,21 +292,22 @@
     <MESSAGE value=":pencil2: ERRATA: renamed file correctly" />
     <MESSAGE value=":zap: IMPROVEMENT: Switch mail send to background job using redis with bee-queue." />
     <MESSAGE value=":star: FEAT: added route for Listing available schedule for a specific provider" />
-    <option name="LAST_COMMIT_MESSAGE" value=":star: FEAT: added route for Listing available schedule for a specific provider" />
+    <MESSAGE value=":star: FEAT: added error handler tracker with sentry" />
+    <option name="LAST_COMMIT_MESSAGE" value=":star: FEAT: added error handler tracker with sentry" />
   </component>
   <component name="WindowStateProjectService">
     <state x="418" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590004773661">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="418" y="182" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1048@0.0.1920.1048" timestamp="1590004773661" />
-    <state x="649" y="316" width="603" height="430" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590022929040">
+    <state x="649" y="316" width="621" height="437" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590024176165">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="649" y="316" width="603" height="430" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1590022929040" />
-    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2" timestamp="1590011360195">
+    <state x="649" y="316" width="621" height="437" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1048@0.0.1920.1048" timestamp="1590024176165" />
+    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2" timestamp="1590023203867">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1590011360195" />
+    <state x="523" y="30" width="912" height="994" key="CommitChangelistDialog2/0.0.1920.1048@0.0.1920.1048" timestamp="1590023203867" />
     <state x="743" y="271" width="424" height="520" key="FileChooserDialogImpl" timestamp="1589982620193">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
@@ -330,9 +344,9 @@
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
     <state x="624" y="237" key="run.anything.popup/0.0.1920.1048@0.0.1920.1048" timestamp="1590011744322" />
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1590011771844">
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1590024015421">
       <screen x="0" y="0" width="1920" height="1048" />
     </state>
-    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1048@0.0.1920.1048" timestamp="1590011771844" />
+    <state x="623" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1048@0.0.1920.1048" timestamp="1590024015421" />
   </component>
 </project>

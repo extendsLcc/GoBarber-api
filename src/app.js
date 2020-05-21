@@ -1,3 +1,5 @@
+import 'dotenv/config';
+
 import express from 'express';
 import Yonch from 'youch';
 import path from 'path';
@@ -8,6 +10,7 @@ import routes from './routes.js';
 import sentryConfig from './config/sentry';
 
 import './database';
+
 
 class App {
 
@@ -44,9 +47,15 @@ class App {
 
         this.server.use( async ( err, req, res, next ) => {
 
-            const errors = await new Yonch( err, req ).toJSON();
+            if (process.env.NODE_ENV === 'dev') {
 
-            return res.status( 500 ).json( errors );
+                const errors = await new Yonch( err, req ).toJSON();
+
+                return res.status( 500 ).json( errors );
+
+            }
+
+            return res.status( 500 ).json( { error: 'Internal server error' } );
 
         } );
 
